@@ -1,6 +1,6 @@
 
-public class OnOff {
+public class OnOff implements Switchable {
 	
-	public String status;
+	public Boolean status = null;
 
 }
